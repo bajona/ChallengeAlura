@@ -1,0 +1,214 @@
+body{
+    background-color: rgb(128, 185, 185);
+    display: inline;
+}
+main {
+    margin: 6% auto;
+    margin-left: 55%;
+    width: 600px;
+    height: 600px;
+    background-color: white;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    border-radius: 15px;
+}
+
+section main h1 {
+font-size: 120%;
+color: rgb(0, 0, 0);  
+border-radius: 10px;
+padding: 5px;
+}
+
+aside {
+    width: 600px;
+    height: 600px;
+    margin-left: 15%;
+    background-color: white;
+    border-radius: 15px;
+    color: black;
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+aside h2 {
+    text-align: center;
+    margin: 0;
+    border-radius: 15px;
+}
+aside section {
+    margin: 75px;
+}
+p {
+    margin-left: 10%;
+    margin-top: 9%;
+}
+.c-section__input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0rem;
+    padding-top: 0rem;
+}
+
+.c-textarea__input {
+    width: 20rem;
+    height: 14rem;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.c-wait {
+    width: 300px;
+    font-size: 10px;
+    margin-top: 0;
+    margin-right: 10px;
+    padding-top: 5px;
+}
+
+
+.c-btns__decoder {
+    display: flex;
+    flex-direction: column;
+}
+
+.c-textarea__output {
+    position: relative;
+    top: 0;
+    margin-top: 10px;
+    margin-left: -10px;
+    background-image: none;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.c-mensage-text1 {
+    width: 280px;
+    position: absolute;
+    margin: 50px 0px 0px 0px;
+    margin-left: 0px;
+    font-size: 18px;
+    padding-left: 30px;
+}
+
+.c-mensage-text2 {
+    width: 280px;
+    position: absolute;
+    margin: 100px 0px 0px 0px;
+    margin-left: 0px;
+    font-size: 16px;
+    padding-left: 30px;
+}
+
+.c-btn__copy-text {
+    width: 18rem;
+    height: 2.5rem;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+
+.c-footer {
+    font-size: 12px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+.c-btns__decoder {
+    display: inline;
+}
+
+.c-btn__encrypt,
+.c-btn__decrypt,
+.c-btn__clear {
+    width: 8rem;
+    height: 3rem;
+    border-radius: 1.3rem;
+    cursor: pointer;
+    margin: 0px;
+    font-size: 16px;
+    margin-top: 15%;
+}
+
+.c-btn__encrypt {
+    background: rgb(202, 202, 202);
+    color: rgb(0, 0, 0);
+    border: none;
+}
+
+.c-btn__encrypt:hover {
+    background: rgb(179, 179, 179);
+    transform: scale(1.0);
+}
+
+.c-btn__decrypt {
+    background: rgb(202, 202, 202);
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 0, 59);
+    color: rgb(0, 0, 0);
+}
+
+.c-btn__decrypt:hover {
+    background: rgb(179, 179, 179);
+    transform: scale(1.0);
+}
+.c-textarea__input {
+    width: 100%;
+    border: none;
+    color: rgb(0, 0, 59);
+    text-transform: lowercase;
+    font-weight: 400;
+    font-size: 20px;
+    outline: rgb(0, 0, 59);
+    overflow: hidden;
+    resize: none;
+    border: 1px solid rgba(0, 0, 0, 0.185);
+    padding: 10px;
+    border-radius: 15px;
+}
+.c-section__output {
+    display: flex;
+    flex-direction: column;
+}
+
+.c-textarea__output {
+    width: 300px;
+    height: 430px;
+    background: white;
+    background-size: 90% 60%;
+    background-repeat: no-repeat;
+    border-radius: 32px;
+    color: rgb(154, 154, 190);
+    resize: none;
+    position: fixed;
+    padding: 30px;
+    font-size: 32px;
+    margin-left: 3.25em;
+    margin-top: 4.75em;
+}
+
+.c-textarea__output:focus {
+    outline: none;
+}
+.c-btn__copy-text {
+    background: rgba(214, 214, 228, 0.322);
+    box-sizing: border-box;
+    width: 19rem;
+    height: 3rem;
+    border-radius: 1rem;
+    border: 1px solid rgb(202, 202, 209);
+    border-radius: 24px;
+    color: rgb(116, 116, 117);
+    z-index: 9999;
+    margin-left: 10em;
+    margin-top: 33.75rem;
+    cursor: pointer;
+
+}

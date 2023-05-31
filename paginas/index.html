@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../estilos/style.css">
+    <title>Challenge - One - Alura</title>
+</head>
+<body>
+    <section>
+        <aside>
+            <h2>
+                Codificação/Decodificação
+            </h2>
+            <section>
+                <textarea id="input-text" class="c-textarea__input" type="text" placeholder="Digite seu texto" rows="15"></textarea>
+                <p>⚠ Apenas letras minúsculas e sem acento.</p>
+                <div class="c-btns__decoder">
+                    <button class="c-btn__encrypt" encrypttext()="">Criptografar</button>
+                    <button class="c-btn__decrypt" decrypttext()="">Decriptografar</button>
+                    <button id="btn-clear" class="c-btn__clear" cleartext()="">Limpar</button>
+                </div>
+            </section>    
+        </aside>
+        <main>
+            <section class="c-section__output">
+                <textarea id="output-text" class="c-textarea__output" style="background-image: none;" placeholder="Saída de Dados"></textarea>
+                <button class="c-btn__copy-text" id="btn-copy-text" copytext()="" style="display: block;">Copiar</button>
+                <p class="c-mensage-text1" id="messagem1"></p>
+                <p class="c-mensage-text2" id="messagem2"></p>
+            </section>
+        </main>
+    </section>
+   <script src="../scripts/script.js"></script>
+</body>
+</html>
